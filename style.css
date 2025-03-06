@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.game-heading{
+    background: linear-gradient(to left top ,#D9E5D6,#9a8c98);
+    height: 52px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.game-container{
+    height: 688px;
+    background:linear-gradient(to left top , #f72585,#3a0ca3);
+    font-family: 'Montserrat', sans-serif;
+    color: #D9E5D6;
+}
+
+.game-msgs{
+    padding: 15px;
+}
+
+.game-msgs h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.game-choice{
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.choice-img img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 4px solid #D9E5D6;
+    padding: 5px;
+}
+.choice-btn{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: #D9E5D6;
+    border-radius: 50%;
+}
+
+
+.choice-btn:hover{
+    cursor: pointer;
+}
+
+.computer{
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #D9E5D6;
+}
+.computer p{
+    padding: 8px;
+}
+.result-el{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    text-decoration: underline;
+    color: #ffea00;
+}
+
+.result-el i{
+    font-size: 1.5rem;
+    padding-left: 4px;
+}
